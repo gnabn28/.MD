@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eff6ff" />
+    </linearGradient>
+    <linearGradient id="phone-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg-grad)" rx="24"/>
+  
+  <!-- Outer glowing rings -->
+  <circle cx="200" cy="180" r="100" fill="none" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="8 6"/>
+  <circle cx="200" cy="180" r="130" fill="none" stroke="#eff6ff" stroke-width="1.5"/>
+
+  <!-- Phone frame -->
+  <rect x="135" y="65" width="130" height="230" rx="20" fill="url(#phone-grad)" stroke="#94a3b8" stroke-width="4"/>
+  
+  <!-- Screen border inner -->
+  <rect x="141" y="71" width="118" height="218" rx="15" fill="none" stroke="#cbd5e1" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Camera notch -->
+  <rect x="180" y="76" width="40" height="12" rx="6" fill="#475569"/>
+  <circle cx="188" cy="82" r="3" fill="#1e293b"/>
+  
+  <!-- Camera array on back shadow/hint -->
+  <circle cx="200" cy="160" r="28" fill="#e2e8f0" opacity="0.6"/>
+  <path d="M 185,160 A 15,15 0 0,1 215,160" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Home indicator line -->
+  <rect x="175" y="280" width="50" height="4" rx="2" fill="#cbd5e1" stroke-linejoin="round"/>
+  
+  <!-- Sparkles / tech accents -->
+  <path d="M 115,100 L 125,100 M 120,95 L 120,105" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 275,230 L 285,230 M 280,225 L 280,235" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Brand text -->
+  <text x="200" y="335" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="800" text-anchor="middle" fill="#1e3a8a" letter-spacing="1">CellPhone<tspan fill="#2563eb">K</tspan></text>
+  <text x="200" y="360" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#64748b" letter-spacing="0.5" opacity="0.8">Hình ảnh đang cập nhật</text>
+</svg>
